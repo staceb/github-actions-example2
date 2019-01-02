@@ -6,5 +6,4 @@ workflow "Work on push" {
 action "Testing Docker" {
   uses = "actions/docker/cli@76ff57a"
   args = "Daniel"
-  runs = "entrypoint.sh"
 }
